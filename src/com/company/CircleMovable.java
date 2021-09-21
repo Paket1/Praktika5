@@ -8,7 +8,7 @@ public class CircleMovable extends Circle implements Movable{
 
     @Override
     public void move(int x, int y) {
-        this.center.setX(this.center.getX()+x);
-        this.center.setY(this.center.getY()+y);
+        this.center.setX(center.getX()+x);
+        this.center.setY(center.getY()+y);
     }
 }
